@@ -165,4 +165,5 @@ FROM PortfolioProject..CovidDeaths
 --WHERE location like '%Germany%'
 Group by location, population, date
 Order by PercentPopulationInfected desc
+
 -- Thanks for Reading --
