@@ -11,6 +11,7 @@ library("skimr")
 library("rmdformats")
 library("png")
 library("patchwork")
+
 # Load all the data and check if column names match and others first-looking errors
 datatrip_2020_09 <- read.csv("R docs/09.2020_09.2022 Data Cyclistic, Case of Study/202009-divvy-tripdata.csv")
 datatrip_2020_10 <- read.csv("R docs/09.2020_09.2022 Data Cyclistic, Case of Study/202010-divvy-tripdata.csv")
